@@ -24,7 +24,7 @@ contract MyfirstNft is ERC721URIStorage {
      // Actually mint the NFT to the sender using msg.sender.
     _safeMint(msg.sender, newItemId);
     // Set the NFTs data.
-   _setTokenURI(newItemId, "https://jsonkeeper.com/b/6TFQ");
+   _setTokenURI(newItemId, "https://ipfs.io/ipfs/QmcG3XbYNwL36fBh5VbWtCYRms3gvnkxymuia8WUFGu2W1/Meta1.json");
    
     // Increment the counter for when the next NFT is minted.
     _tokenIds.increment();
